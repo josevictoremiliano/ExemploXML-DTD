@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaAutomoveis [
+    <!ELEMENT listaAutomoveis (automovel*)>
+
+    <!ELEMENT automovel (descricao, caracteristicas, preco)>
+    <!ATTLIST automovel id ID #REQUIRED>
+
+    <!ELEMENT descricao (#PCDATA)>
+    <!ATTLIST descricao combustivel (Gasolina|Gasoleo|GPL) "GPL">
+
+    <!ELEMENT caracteristicas (cor, quilometragem, fotografia, obs)>
+    <!ELEMENT cor (#PCDATA)>
+    <!ATTLIST cor nome CDATA #REQUIRED>
+    <!ELEMENT quilometragem (#PCDATA)>
+    <!ELEMENT fotografia (#PCDATA)>
+    <!ATTLIST fotografia link CDATA #REQUIRED>
+    <!ELEMENT obs (#PCDATA)>
+
+    <!ELEMENT preco (#PCDATA)>
+    <!ATTLIST preco valor CDATA #REQUIRED>
+
+
+]>
+<listaAutomoveis>
+    <automovel id="1">
+        <descricao combustivel="GPL"/>
+        <caracteristicas>
+            <cor  nome="azul"/>
+            <quilometragem>360</quilometragem>
+            <fotografia link="aaa"/>
+            <obs>Carro novo</obs>
+        </caracteristicas>
+        <preco valor="1"/>
+    </automovel>
+</listaAutomoveis>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<discografia cantor="Shawn James">
+    <disco nome="THE STONES CRIED OUT">
+        <lancamento>JAN 28, 2022</lancamento>
+        <gravadora>Shawn James</gravadora>
+        <musicas>THE STONES CRIED OUT </musicas>
+    </disco>
+    <disco nome="NOT ALONE">
+        <lancamento>DEC 3, 2021</lancamento>
+        <gravadora>Shawn James</gravadora>
+        <musicas>NOT ALONE </musicas>
+    </disco>
+</discografia>

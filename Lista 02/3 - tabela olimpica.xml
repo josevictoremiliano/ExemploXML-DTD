@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<olimpiadas>
+    <classificacao id="1">
+        <pais> China </pais>
+        <medalhas total="100">
+            <ouro quantidade="51" />
+            <prata quantidade="21" />
+            <bronze quantidade="28" />
+        </medalhas>
+    </classificacao>
+    <classificacao id="2">
+        <pais> </pais>
+        <medalhas total="110">
+            <ouro quantidade="36" />
+            <prata quantidade="38" />
+            <bronze quantidade="36" />
+        </medalhas>
+    </classificacao>
+    <classificacao id="3">
+        <pais> </pais>
+        <medalhas total="72">
+            <ouro quantidade="23" />
+            <prata quantidade="21" />
+            <bronze quantidade="28" />
+        </medalhas>
+    </classificacao>
+    <classificacao id="4">
+        <pais> </pais>
+        <medalhas total="47">
+            <ouro quantidade="19" />
+            <prata quantidade="13" />
+            <bronze quantidade="15" />
+        </medalhas>
+    </classificacao>
+    <classificacao id="5">
+        <pais> </pais>
+        <medalhas total="41">
+            <ouro quantidade="16" />
+            <prata quantidade="10" />
+            <bronze quantidade="15" />
+        </medalhas>
+    </classificacao>
+    <classificacao id="6">
+        <pais> </pais>
+        <medalhas total="15">
+            <ouro quantidade="3" />
+            <prata quantidade="4" />
+            <bronze quantidade="8" />
+        </medalhas>
+    </classificacao>
+</olimpiadas>
